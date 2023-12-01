@@ -1,0 +1,39 @@
+{
+  "packages": [
+    {
+      "name": "LIGHTNING DEVICES",
+      "maintainer": "LIGHTNING DEVICES",
+      "websiteURL": "-",
+      "email": "lightningdevices@gmail.com",
+      "platforms": [
+        {
+          "name": "LIGHTNING DEVICES Development Kits",
+          "architecture": "nrf52",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/LIGHTNING-DEVICES/LD-Beacon-MK1-Arduino/raw/main/LD_Beacon_MK1-0.0.1.zip",
+          "archiveFileName": "LD_Beacon_MK1-0.0.1.zip",
+          "checksum": "SHA-256:eecfed075edb8c62c838b485ba158e4009e974280da8ae0ef1c275625964dc11",
+          "size": "15836922",
+          "boards": [
+            {
+              "name": "LD Beacon MK1"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
